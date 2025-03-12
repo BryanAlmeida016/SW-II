@@ -1,11 +1,11 @@
 <?php
     //Crie um array com 10 números inteiros. Use um laço de repetição para calcular a soma de todos os elementos do array e exiba o resultado
-    $nums = array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
-    $total = array();
+    $numeros = [5, 8, 12, 3, 7, 15, 20, 6, 9, 11];
 
-    for ($i=0; $i < 10; $i++) { 
-        $total += $nums($i);
+    $soma = 0;
+    foreach ($numeros as $num) {
+        $soma += $num;
     }
 
-    print_r($total);
+    echo "A soma dos elementos do array é: $soma\n";
 ?>
